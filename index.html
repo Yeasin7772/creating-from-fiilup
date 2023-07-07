@@ -5,37 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="from.css">
     <title>creating a form</title>
+    <style>
+        
+    </style>
 </head>
 <body>
     <header>
-        <section>
-       <form action="">
-        <h2>form fill up</h2>
+        <div class="topnap" > 
+           <a  class="active" href="https://www.google.com/search?q=twitter&oq=&gs_lcrp=EgZjaHJvbWUqCQgGECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAuGCcY6gLSAQ0xMzgxNjI4NmowajE1qAIIsAIB&sourceid=chrome&ie=UTF-8">twitter</a>
+          <input class="topnap" type="text" placeholder="search">
+        </div>
+        <section >
+           
+
+       <form class="all-form" action="">
+         
+      
+
+        <h2 class="head">form fill up</h2>
+
+        <div  >
         <label for="Name"> Your name:
-         <input id="Name" type="text" placeholder="Name">
-        </label>
-        <label for="email">enter your email:
-            <input type="email" name="" id="email" placeholder="your email">
-        </label>
-        <label for="number"> phone:
-            <input type="number" name="" id="phone" placeholder="your phone number">
-        </label>
-       <fieldset>
-        <legend>current problme</legend>
-        <label for="exam">
-            <input type="radio" name="problme" id="exam">exam
-        </label>
-        <label for="device ">
-            <input type="radio" name="problme" id="device">device
-        </label>
-        <label for="gid line">
-            <input type="radio" name="problme" id="gid line">gid line
-        </label>
-            
-
-        
-
-       </fieldset>
+            <input  id="Name" type="text" placeholder="Name"><br>
+           </label>
+           <label for="email">enter your email:
+               <input type="email" name="" id="email" placeholder="your email"><br>
+           </label>
+           <label for="number"> phone:
+               <input type="number" name="" id="phone" placeholder="your phone number"><br>
+           </label>
+          <fieldset>
+           <legend>current problem</legend>
+           <label for="exam">
+               <input type="radio" name="problem" id="exam">exam
+           </label>
+           <label for="device ">
+               <input type="radio" name="problem" id="device">device
+           </label>
+           <label for="grid lines">
+               <input type="radio" name="problem" id="grid lines">grid lines
+           </label>
+            </fieldset>
+            <fieldset>
+               <legend> how many problme do you have</legend>
+                   <label for="fever">
+                       <input type="checkbox" name="have" id="fever"> fever
+                   </label>
+                   <label for="little bit cold">
+                       <input type="checkbox" name="have" id="little bit cold"> little bit cold
+                   </label>
+                   <label for="clod">
+                       <input type="checkbox" name="have" id="cold"> cold
+                   </label>
+               </fieldset>
+                  
+   
+                  <fieldset>
+                   <legend> hard problme</legend>
+                   <textarea name="" id="" cols="15" rows="5"></textarea>
+                   </label>
+                </fieldset>
+               <input type="reset" value="reset">
+              <input type="submit" value="submit">
+              </div>
+         
       
 
 
